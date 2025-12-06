@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
+body {
+    background-color: var(--color-bg);
+}
+
 @theme {
-    --color-bg: #000000;
+    --color-bg: #111111;
+    --color-black-light: #212121;
+    --color-black-lighter: #3a3a3a;
+    --color-white-light: #ececec;
+    --color-white-dark: #a4a4a4;
+    --color-primary: #5ec0ff;
+
 
     /* Font */
     --font-poppins: "poppins", sans-serif;
@@ -13,6 +23,10 @@
     src: url("../font/Poppins-Medium.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+.hover-effect {
+    @apply hover:-translate-y-1 transition-transform duration-300;
 }
 
 

@@ -2,14 +2,13 @@
 import {defineComponent} from 'vue'
 
 export default defineComponent({
-name: "MainContent"
+  name: "MainContent"
 })
 </script>
 
 <template>
-  $END$
+  <section class="bg-black-light h-auto w-full rounded-4xl">
+    <h1>Test</h1>
+    <h1 class="font-poppins">Test</h1>
+  </section>
 </template>
-
-<style scoped>
-
-</style>
