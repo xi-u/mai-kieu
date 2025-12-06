@@ -12,7 +12,21 @@ export default defineComponent({
   <section class="bg-black-light h-auto w-full rounded-4xl relative overflow-hidden border-primary border-2">
     <Navigation class="absolute right-0"/>
     <div class="p-12">
-      <router-view/>
+      <Transition name="fade">
+        <router-view/>
+      </Transition>
     </div>
   </section>
 </template>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

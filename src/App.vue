@@ -4,12 +4,10 @@ import MainContent from "./components/content/MainContent.vue";
 </script>
 
 <template>
-  <section class="flex items-center justify-center h-screen w-screen">
-    <main class="flex flex-row gap-10 w-375">
-      <!--  Sidebar-->
-      <SideBar/>
-      <!--  Main content-->
-      <MainContent/>
-    </main>
-  </section>
+  <main class="flex flex-col 2xl:flex-row gap-6 sm:gap-8 lg:gap-10 w-full max-w-375 mx-auto mt-6 sm:mt-12 lg:mt-25 px-4 sm:px-6 lg:px-8">
+    <!--  Sidebar-->
+    <SideBar/>
+    <!--  Main content-->
+    <MainContent/>
+  </main>
 </template>

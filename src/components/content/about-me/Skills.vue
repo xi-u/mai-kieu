@@ -10,9 +10,9 @@ export default defineComponent({
 
 <template>
   <div>
-    <h2 class="text-3xl font-bold">Skills</h2>
-    <p class="text-sm text-white-dark">Technologies I've worked with</p>
-    <ul class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 mt-6">
+    <h2 class="text-2xl sm:text-3xl font-bold">Skills</h2>
+    <p class="text-xs sm:text-sm text-white-dark">Technologies I've worked with</p>
+    <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 mt-4 sm:mt-6">
       <Widget logo="HTML">
         <template #logo>
           <img src="/src/assets/img/logo/html.png" alt="HTML" class="object-cover w-full h-full rounded-3xl"/>
