@@ -1,6 +1,6 @@
 <script setup>
 import SideBar from "./components/sidebar/SideBar.vue";
-import MainContent from "./components/MainContent.vue";
+import MainContent from "./components/content/MainContent.vue";
 </script>
 
 <template>

@@ -11,13 +11,13 @@ export default defineComponent({
 </script>
 
 <template>
-  <ul class="flex flex-col gap-3">
+  <ul class="flex flex-col gap-3 font-poppins-light">
     <li class="flex flex-row hover-effect">
       <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md">
         <Email class="text-primary w-6"/>
       </figure>
       <div class="text-white-light flex flex-col ml-4 justify-center">
-        <p class="text-white-dark text-xs">EMAIL</p>
+        <p class="text-white-dark font-extrabold text-xs">EMAIL</p>
         <p>kieumai3@gmail.com</p>
       </div>
     </li>
@@ -27,7 +27,7 @@ export default defineComponent({
         <Phone class="text-primary w-6"/>
       </figure>
       <div class="text-white-light flex flex-col ml-4 justify-center">
-        <p class="text-white-dark text-xs">PHONE</p>
+        <p class="text-white-dark font-extrabold text-xs">PHONE</p>
         <p>+31 6 84 92 30 21</p>
       </div>
     </li>
@@ -37,7 +37,7 @@ export default defineComponent({
         <LinkedIn class="text-primary w-6"/>
       </figure>
       <div class="text-white-light flex flex-col ml-4 justify-center">
-        <p class="text-white-dark text-xs">LINKEDIN</p>
+        <p class="text-white-dark font-extrabold text-xs">LINKEDIN</p>
         <p class="text-xs">
           <a href="https://www.linkedin.com/in/mai-kieu-832a69391/" target="_blank" class="hover:underline">
             www.linkedin.com/...

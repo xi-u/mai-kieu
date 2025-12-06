@@ -32,8 +32,8 @@ export default defineComponent({
 </script>
 
 <template>
-  <figure
-      class="bg-black-lighter w-60 h-60 flex items-center justify-center rounded-4xl shadow-md hover-effect overflow-hidden">
+  <figure class="bg-black-lighter w-60 h-60 flex items-center justify-center rounded-4xl shadow-md hover-effect
+  overflow-hidden border-primary border-2">
     <Carousel v-bind="config" class="w-full h-full">
       <Slide v-for="image in images" :key="image.id" class="flex items-center justify-center">
         <img :src="image.url" alt="Mai Kieu" class="rounded-4xl w-50 h-50 object-cover"/>
