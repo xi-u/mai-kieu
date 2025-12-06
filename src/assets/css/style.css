@@ -7,7 +7,7 @@ body {
 @theme {
     --color-bg: #111111;
     --color-black-light: #212121;
-    --color-black-lighter: #3a3a3a;
+    --color-black-lighter: #313131;
     --color-white-light: #ececec;
     --color-white-dark: #a4a4a4;
     --color-primary: #5ec0ff;
@@ -15,12 +15,20 @@ body {
 
     /* Font */
     --font-poppins: "poppins", sans-serif;
+    --font-poppins-light: "poppins-light", sans-serif;
     --default-font-family: var(--font-poppins);
 }
 
 @font-face {
     font-family: "poppins";
     src: url("../font/Poppins-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url("../font/Poppins-Light.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
