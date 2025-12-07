@@ -1,10 +1,3 @@
-import electionThumbnail from '/src/assets/img/projects/elections/thumbnail.png'
-import gameWebshopThumbnail from '/src/assets/img/projects/game-webshop/thumbnail.png'
-import gameThumbnail from '/src/assets/img/projects/game/thumbnail.png'
-import forumThumbnail from '/src/assets/img/projects/forum/thumbnail.png'
-import dokkieThumbnail from '/src/assets/img/projects/dokkie/thumbnail.png'
-import gazetteThumbnail from '/src/assets/img/projects/gazette/thumbnail.png'
-
 export const projects = [
     {
         id: 1,
@@ -17,8 +10,8 @@ export const projects = [
         I parsed the XML data using transformers and converted it into Java entity models with JPA/Hibernate. 
         
         On the backend, I worked with Java Spring Boot to build RESTful APIs, and on the frontend I created responsive Vue.js components with TypeScript, gaining experience in both frontend and backend development with real datasets.`,
-        technologies: ["Java", "Spring Boot", "Vue.js", "TypeScript", "JPA/Hibernate", "HTML", "CSS", "Tailwind CSS", "Figma", "IntelliJ IDEA", "Git"],
-        thumbnail: electionThumbnail,
+        technologies: ["Java", "Spring Boot", "Vue.js", "TypeScript", "JPA Hibernate", "HTML", "CSS", "Tailwind CSS", "Figma", "IntelliJ IDEA", "Git"],
+        thumbnail: "/mai-kieu/img/projects/elections/thumbnail.png",
     },
     {
         id: 2,
@@ -29,7 +22,7 @@ export const projects = [
         
         I’ve always admired the original site for its design, animations, and visuals, so I decided to recreate it as a personal challenge. The project allowed me to deepen my understanding of frontend development while experimenting with interactive elements and styling, making it both a fun and valuable learning experience.`,
         technologies: ["TypeScript", "HTML", "CSS", "VSCode", "Git"],
-        thumbnail: gazetteThumbnail,
+        thumbnail: "/mai-kieu/img/projects/gazette/thumbnail.png",
     },
     {
         id: 3,
@@ -41,8 +34,8 @@ export const projects = [
         For this project, I worked with Express.js and MySQL, and I learned more about HTTPS, API endpoints and calls, UI design, ERDs, databases, diagrams, and using external APIs. 
         
         I was responsible for developing the home page, profile page, login and register pages, the wishlist, the license page, and product reviews. I also set up a price API and deployed it using Docker.`,
-        technologies: ["TypeScript", "Express.js", "MySQL", "HTML", "CSS", "Docker", "Node.js", "Tailwind CSS", "Figma", "VSCode", "Git"],
-        thumbnail: gameWebshopThumbnail,
+        technologies: ["TypeScript", "Express.js", "mySQL", "HTML", "CSS", "Docker", "Node.js", "Tailwind CSS", "Figma", "VSCode", "Git"],
+        thumbnail: "/mai-kieu/img/projects/game-webshop/thumbnail.png",
     },
     {
         id: 4,
@@ -54,8 +47,8 @@ export const projects = [
         During this project, I learned how to work with pre-existing code, use a game engine, and work with API endpoints and calls. The project was mainly backend-focused using HTTPS, but I also gained experience with web components in TypeScript. 
         
         I was responsible for the entire UI, as well as the login and register system, notebook components, the cafeteria level, and the escape alleyway level. I also worked with flowcharts to design and plan the game flow.`,
-        technologies: ["TypeScript", "Express.js", "MySQL", "HTML", "CSS", "Node.js", "Figma", "VSCode", "Git"],
-        thumbnail: gameThumbnail,
+        technologies: ["TypeScript", "Express.js", "mySQL", "HTML", "CSS", "Node.js", "Figma", "VSCode", "Git"],
+        thumbnail: "/mai-kieu/img/projects/game/thumbnail.png",
     },
     {
         id: 5,
@@ -68,7 +61,7 @@ export const projects = [
         
         The main focus of the project was to understand OOP principles, build simple backend logic, work with SQL databases, and apply the MVC architecture in a real application.`,
         technologies: ["TypeScript", "HTML", "CSS", "mySQL", "Figma", "VSCode", "Git"],
-        thumbnail: forumThumbnail,
+        thumbnail: "/mai-kieu/img/projects/forum/thumbnail.png",
     },
     {
         id: 6,
@@ -83,7 +76,7 @@ export const projects = [
         
          This project gave me a strong foundation in programming, version control, and thinking about user experience.`,
         technologies: ["TypeScript", "HTML", "CSS", "VSCode", "Git"],
-        thumbnail: dokkieThumbnail,
+        thumbnail: "/mai-kieu/img/projects/dokkie/thumbnail.png",
     },
 
 ]
