@@ -34,13 +34,13 @@ export default defineComponent({
     px-12 border-primary border-2">
       <span ref="indicator" class="absolute bg-primary transition-all ease duration-400 h-1 bottom-5 rounded-xl"></span>
       <li>
-        <router-link to="/mai-kieu/about" @mouseenter="moveIndicator" active-class="!text-primary">About</router-link>
+        <router-link to="/about" @mouseenter="moveIndicator" active-class="!text-primary">About</router-link>
       </li>
       <li>
-        <router-link to="/mai-kieu/projects" @mouseenter="moveIndicator" active-class="!text-primary">Projects</router-link>
+        <router-link to="/projects" @mouseenter="moveIndicator" active-class="!text-primary">Projects</router-link>
       </li>
       <li>
-        <router-link to="/mai-kieu/contact" @mouseenter="moveIndicator" active-class="!text-primary">Contact</router-link>
+        <router-link to="/contact" @mouseenter="moveIndicator" active-class="!text-primary">Contact</router-link>
       </li>
     </ul>
   </nav>

@@ -13,7 +13,8 @@ export default defineComponent({
 </script>
 
 <template>
-  <aside class="bg-black-light 2xl:w-125 2xl:h-200 rounded-4xl flex flex-col  md:flex-row 2xl:flex-col border-primary border-2">
+  <aside class="bg-black-light 2xl:w-125 2xl:h-200 rounded-4xl flex flex-col md:flex-row 2xl:flex-col border-primary
+  border-2 sticky top-10 xl:top-20">
     <!--  Side bar info, about me-->
     <section class="flex flex-col items-center justify-center gap-4 p-20 pb-8">
       <SideBarInfo/>

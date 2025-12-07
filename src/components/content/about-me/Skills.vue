@@ -75,6 +75,11 @@ export default defineComponent({
           <img src="/src/assets/img/logo/sql.png" alt="mySQL" class="object-cover w-full h-full rounded-3xl"/>
         </template>
       </Widget>
+      <Widget logo="JPA Hibernate">
+        <template #logo>
+          <img src="/src/assets/img/logo/jpa.png" alt="JPA Hibernate" class="object-cover w-full h-full rounded-3xl"/>
+        </template>
+      </Widget>
       <Widget logo="VSCode">
         <template #logo>
           <img src="/src/assets/img/logo/vscode.png" alt="VSCode" class="object-cover w-full h-full rounded-3xl"/>
@@ -101,7 +106,6 @@ export default defineComponent({
           <img src="/src/assets/img/logo/figma.png" alt="Figma" class="object-cover w-full h-full rounded-3xl"/>
         </template>
       </Widget>
-
     </ul>
   </div>
 </template>

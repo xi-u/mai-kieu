@@ -43,10 +43,10 @@ export default defineComponent({
 
   <div class="flex flex-col items-center justify-center gap-2 text-white-light w-full  text-center">
     <h2 class="font-poppins font-bold text-3xl ">Mai Kieu</h2>
-    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark shadow-md hover-effect">
+    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark  hover-effect">
       Student HBO-ICT Software Engineering
     </p>
-    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark shadow-md hover-effect">
+    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark  hover-effect">
       Hogeschool van Amsterdam
     </p>
     <hr class="border-white-dark w-full opacity-30 mt-6"/>
