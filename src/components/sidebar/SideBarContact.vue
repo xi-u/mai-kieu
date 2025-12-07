@@ -11,7 +11,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <ul class="flex flex-col xl:flex-row 2xl:flex-col gap-2 xl:gap-12 font-poppins-light">
+  <ul class="flex flex-col xl:flex-row 2xl:flex-col gap-2 md:gap-12 xl:gap-4 font-poppins-light pb-8">
     <li class="flex flex-row hover-effect">
       <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
         <Email class="text-primary w-6"/>

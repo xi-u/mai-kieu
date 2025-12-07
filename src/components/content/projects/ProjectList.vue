@@ -19,7 +19,7 @@ export default defineComponent({
         :key="project.id"
         :to="`/project/${project.id}`"
         class="block">
-      <div class="flex flex-col gap-2">
+      <article class="flex flex-col gap-2">
         <figure class="group overflow-hidden shadow-md rounded-2xl
         ease-in-out w-70 h-40 relative">
           <img :src="project?.thumbnail" :alt="project?.title" class="rounded-2xl object-cover w-full h-full
@@ -29,10 +29,12 @@ export default defineComponent({
             <p class="">View more</p>
           </div>
         </figure>
-        <h2 class="text-lg">{{ project.title }}</h2>
-        <p class="text-sm font-poppins-light text-white-dark">{{ project.description }}</p>
-      </div>
+        <div class="flex flex-col">
+          <h2 class="text-lg">{{ project.title }}</h2>
+          <p class="text-xs text-white-dark">{{ project.date }}</p>
+          <p class="text-sm font-poppins-light text-white-dark">{{ project.description }}</p>
+        </div>
+      </article>
     </router-link>
-
   </section>
 </template>

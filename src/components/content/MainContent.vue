@@ -12,9 +12,11 @@ export default defineComponent({
   <section class="bg-black-light h-auto w-full rounded-4xl relative overflow-hidden border-primary border-2">
     <Navigation class="absolute right-0"/>
     <div class="p-12">
-      <Transition name="fade">
-        <router-view/>
-      </Transition>
+      <router-view v-slot="{ Component }">
+        <Transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </Transition>
+      </router-view>
     </div>
   </section>
 </template>
@@ -22,7 +24,7 @@ export default defineComponent({
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 
 .fade-enter-from,
