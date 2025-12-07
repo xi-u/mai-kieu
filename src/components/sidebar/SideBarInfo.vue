@@ -32,8 +32,9 @@ export default defineComponent({
 </script>
 
 <template>
-  <figure class="bg-black-lighter w-60 h-60 flex items-center justify-center rounded-4xl shadow-md hover-effect
-  overflow-hidden border-primary border-2">
+  <figure
+      class="w-52 h-52 flex items-center justify-center rounded-4xl shadow-md hover-effect
+         overflow-hidden bg-gradient-to-br from-primary to-secondary">
     <Carousel v-bind="config" class="w-full h-full">
       <Slide v-for="image in images" :key="image.id" class="flex items-center justify-center">
         <img :src="image.url" alt="Mai Kieu" class="rounded-4xl w-50 h-50 object-cover"/>
@@ -41,14 +42,15 @@ export default defineComponent({
     </Carousel>
   </figure>
 
-  <div class="flex flex-col items-center justify-center gap-2 text-white-light w-full  text-center">
+
+  <div class="flex flex-col items-center justify-center gap-4 text-white-light w-full text-center">
     <h2 class="font-poppins font-bold text-3xl ">Mai Kieu</h2>
-    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark  hover-effect">
-      Student HBO-ICT Software Engineering
-    </p>
-    <p class="font-poppins text-xs bg-black-lighter p-2 rounded-xl text-white-dark  hover-effect">
-      Hogeschool van Amsterdam
-    </p>
-    <hr class="border-white-dark w-full opacity-30 mt-6"/>
+      <p class="font-poppins text-xs rounded-xl text-white-dark ">
+        Student HBO-ICT Software Engineering
+      </p>
+      <p class="font-poppins text-xs rounded-lg text-white-dark">
+        Hogeschool van Amsterdam
+      </p>
+    <hr class="border-white-dark w-full opacity-30 "/>
   </div>
 </template>

@@ -5,12 +5,19 @@ body {
 }
 
 @theme {
-    --color-bg: #111111;
-    --color-black-light: #212121;
-    --color-black-lighter: #313131;
-    --color-white-light: #ececec;
-    --color-white-dark: #a4a4a4;
-    --color-primary: #5ec0ff;
+        --color-bg: #0a1224;
+        --color-black-light: #151d30;
+        --color-black-lighter: #233447;
+
+        --color-white-light: #f2f2f2;
+        --color-white-dark: #bfc4cc;
+
+        --color-primary: #13d6ff;
+        --color-primary-dark: #0aa0c7;
+
+        --color-secondary: #b7ff66;
+        --color-secondary-dark: #7ccb39;
+
 
 
     /* Font */
@@ -35,6 +42,10 @@ body {
 
 .hover-effect {
     @apply hover:-translate-y-1 transition-transform duration-300;
+}
+
+.focus-effect {
+    @apply focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none;
 }
 
 

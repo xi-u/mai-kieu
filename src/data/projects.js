@@ -32,7 +32,7 @@ export const projects = [
     {
         id: 2,
         title: "The GazettE",
-        date: "April 2024",
+        date: "April 2025",
         description: "A recreation of the official website of the Japanese rock band The GazettE.",
         fullDescription: `This is a small frontend project I created during my first year, built entirely with HTML, CSS, and TypeScript. It’s a personal remake of the website of one of my favorite bands, the GazettE. 
         
@@ -50,7 +50,8 @@ export const projects = [
             "/mai-kieu/img/projects/gazette/7.png",
             "/mai-kieu/img/projects/gazette/8.png",
         ],
-        video: "https://www.youtube.com/embed/40AU2jjbH_w"
+        video: "https://www.youtube.com/embed/40AU2jjbH_w",
+        link: "https://xi-u.github.io/gazette-web-design/index.html",
     },
     {
         id: 3,

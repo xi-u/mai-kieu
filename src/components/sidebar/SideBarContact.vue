@@ -13,9 +13,11 @@ export default defineComponent({
 <template>
   <ul class="flex flex-col xl:flex-row 2xl:flex-col gap-2 md:gap-12 xl:gap-4 font-poppins-light pb-8">
     <li class="flex flex-row hover-effect">
-      <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-        <Email class="text-primary w-6"/>
-      </figure>
+      <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
+        <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
+          <Email class="text-secondary w-6"/>
+        </figure>
+      </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
         <p class="text-white-dark font-extrabold text-xs">EMAIL</p>
         <p class="text-sm sm:text-base break-all">kieumai3@gmail.com</p>
@@ -23,9 +25,11 @@ export default defineComponent({
     </li>
 
     <li class="flex flex-row hover-effect">
-      <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-        <Phone class="text-primary w-6"/>
-      </figure>
+      <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
+        <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
+          <Phone class="text-secondary w-6"/>
+        </figure>
+      </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
         <p class="text-white-dark font-extrabold text-xs">PHONE</p>
         <p class="text-sm sm:text-base">+31 6 84 92 30 21</p>
@@ -33,9 +37,11 @@ export default defineComponent({
     </li>
 
     <li class="flex flex-row hover-effect">
-      <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-        <LinkedIn class="text-primary w-6"/>
-      </figure>
+      <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
+        <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
+          <LinkedIn class="text-secondary w-6"/>
+        </figure>
+      </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
         <p class="text-white-dark font-extrabold text-xs">LINKEDIN</p>
         <p class="text-xs">

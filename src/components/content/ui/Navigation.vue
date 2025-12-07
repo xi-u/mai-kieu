@@ -32,15 +32,15 @@ export default defineComponent({
   <nav>
     <ul class="flex gap-6 text-white-light bg-black-lighter h-20 items-center justify-center rounded-bl-4xl py-8
     px-12 border-primary border-2">
-      <span ref="indicator" class="absolute bg-primary transition-all ease duration-400 h-1 bottom-5 rounded-xl"></span>
+      <span ref="indicator" class="absolute bg-gradient-to-r from-primary to-secondary transition-all ease duration-400 h-1 bottom-5 rounded-xl"></span>
       <li>
-        <router-link to="/about" @mouseenter="moveIndicator" active-class="!text-primary">About</router-link>
+        <router-link to="/about" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">About</router-link>
       </li>
       <li>
-        <router-link to="/projects" @mouseenter="moveIndicator" active-class="!text-primary">Projects</router-link>
+        <router-link to="/projects" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">Projects</router-link>
       </li>
       <li>
-        <router-link to="/contact" @mouseenter="moveIndicator" active-class="!text-primary">Contact</router-link>
+        <router-link to="/contact" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">Contact</router-link>
       </li>
     </ul>
   </nav>
