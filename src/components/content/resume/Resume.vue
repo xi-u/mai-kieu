@@ -4,50 +4,43 @@ import Divider from "../ui/Divider.vue";
 import Code from "../../icons/Code.vue";
 import ProjectList from "../projects/ProjectList.vue";
 import EducationCap from "../../icons/EducationCap.vue";
+import PersonCard from "../../icons/PersonCard.vue";
+import Work from "../../icons/Work.vue";
+import {education} from "/src/data/education";
+import {work} from "/src/data/work";
+import Timeline from "./Timeline.vue";
 
 export default defineComponent({
-  name: "Education",
-  components: {EducationCap, ProjectList, Code, Divider}
+  name: "Resume",
+  components: {Timeline, Work, PersonCard, EducationCap, ProjectList, Code, Divider},
+  data() {
+    return {
+      education,
+      work
+    }
+  }
 })
 </script>
 
 <template>
   <section class="text-white-light flex flex-col">
     <header class="flex flex-row items-center gap-4">
-      <EducationCap class="text-secondary w-9 h-9"/>
-      <h1 class="text-4xl font-bold">Education</h1>
+      <PersonCard class="text-secondary w-9 h-9"/>
+      <h1 class="text-4xl font-bold">Resume</h1>
     </header>
     <Divider/>
 
-    <div class="flex flex-col relative pl-8 mt-12">
-      <div class="absolute left-4 top-0 w-1 h-full
-            bg-gradient-to-b from-primary to-secondary rounded-xl"></div>
-
-      <div class="flex items-start gap-4 relative mb-8">
-        <div class="w-4 h-4 bg-secondary rounded-full mt-1.5"></div>
-        <div>
-          <p class="font-bold text-primary">2024 - Present</p>
-          <p class="font-poppins-light">Amsterdam University of Applied Sciences (Hogeschool van Amsterdam)</p>
-          <p class="text-white-dark text-sm mt-1">HBO-ICT - Software Engineering</p>
-          <p class="text-white-dark text-xs font-poppins-light mt-1">
-            Propedeuse completed cum laude <br><br>
-            Currently in the 2nd year of the Bachelor's program
-          </p>
-        </div>
-      </div>
-
-      <div class="flex items-start gap-4 relative mb-8">
-        <div class="w-4 h-4 bg-secondary rounded-full mt-1.5"></div>
-        <div>
-          <p class="font-bold text-primary">2019 - 2024</p>
-          <p class="font-poppins-light">Helen Parkhurst</p>
-          <p class="text-white-dark text-sm mt-1">HAVO N&T</p>
-          <p class="text-white-dark text-xs font-poppins-light mt-1">
-            HAVO completed cum laude
-          </p>
-        </div>
-      </div>
+    <div class=" flex flex-row items-center gap-4 mt-6">
+      <EducationCap class="text-primary w-8 h-8"/>
+      <h2 class="text-2xl font-bold ml-4">Education</h2>
     </div>
+    <Timeline :items="education"/>
+
+    <div class=" flex flex-row items-center gap-4 mt-6">
+      <Work class="text-primary w-8 h-8"/>
+      <h2 class="text-2xl font-bold ml-4">Work Experience</h2>
+    </div>
+    <Timeline :items="work"/>
 
   </section>
 </template>

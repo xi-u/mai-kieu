@@ -6,10 +6,11 @@ import Divider from "../ui/Divider.vue";
 import Widget from "../ui/Widget.vue";
 import ProjectCarousel from "./ProjectCarousel.vue";
 import ProjectModal from "./ProjectModal.vue";
+import NewWindow from "../../icons/NewWindow.vue";
 
 export default defineComponent({
   name: "ProjectDetail",
-  components: {ProjectModal, ProjectCarousel, Divider, Back, Widget},
+  components: {NewWindow, ProjectModal, ProjectCarousel, Divider, Back, Widget},
   data() {
     return {
       project: null,
@@ -54,7 +55,8 @@ export default defineComponent({
         {{ currentProject.fullDescription }}
       </p>
       <a v-if="currentProject.link" :href="currentProject.link" target="_blank"
-         class="text-primary underline mb-4 hover:text-primary/80 transition-colors duration-300">
+         class="text-primary underline mb-4 flex flex-row items-center gap-2 hover:text-primary/80 transition-colors duration-300">
+        <NewWindow class="w-4 h-4"/>
         Visit Project Link
       </a>
       <h2 class="text-2xl font-bold">Technologies Used</h2>

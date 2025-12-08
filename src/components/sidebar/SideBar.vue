@@ -14,7 +14,7 @@ export default defineComponent({
 
 <template>
   <aside class="bg-black-light 2xl:w-125 2xl:h-200 rounded-4xl flex flex-col md:flex-row 2xl:flex-col border-primary
-  border-2 2xl:sticky top-10 xl:top-20 gap-3">
+  border-2 sticky top-10 xl:top-20 gap-3">
     <!--  Side bar info, about me-->
     <section class="flex flex-col items-center justify-center gap-6 p-20 pb-8">
       <SideBarInfo/>

@@ -40,6 +40,9 @@ export default defineComponent({
         <router-link to="/projects" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">Projects</router-link>
       </li>
       <li>
+        <router-link to="/resume" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">Resume</router-link>
+      </li>
+      <li>
         <router-link to="/contact" @mouseenter="moveIndicator" class="hover:text-secondary transition-colors" active-class="!text-primary">Contact</router-link>
       </li>
     </ul>

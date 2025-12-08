@@ -2,19 +2,19 @@
 import {defineComponent} from 'vue'
 import Divider from "../ui/Divider.vue";
 import ProjectList from "../projects/ProjectList.vue";
-import ContactCard from "../../icons/ContactCard.vue";
 import Send from "../../icons/Send.vue";
+import ContactUs from "../../icons/ContactUs.vue";
 
 export default defineComponent({
   name: "Contact",
-  components: {Send, ContactCard, ProjectList, Divider},
+  components: {ContactUs, Send, ProjectList, Divider},
 })
 </script>
 
 <template>
   <section class="text-white-light flex flex-col">
     <header class="flex flex-row items-center gap-4">
-      <ContactCard class="text-secondary h-8 w-8"/>
+      <ContactUs class="text-secondary h-8 w-8"/>
       <h1 class="text-4xl font-bold">Contact</h1>
     </header>
     <Divider/>
