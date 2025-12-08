@@ -2,17 +2,21 @@
 import {defineComponent} from 'vue'
 import Divider from "../ui/Divider.vue";
 import Skills from "./Skills.vue";
+import OpenBook from "../../icons/OpenBook.vue";
 
 export default defineComponent({
   name: "AboutMe",
-  components: {Skills, Divider}
+  components: {OpenBook, Skills, Divider}
 })
 </script>
 
 <template>
   <section class="text-white-light flex flex-col">
-    <h1 class="text-4xl font-bold">About Me</h1>
-      <Divider/>
+    <header class="flex flex-row items-center gap-4">
+      <OpenBook class="text-secondary w-8 h-8"/>
+      <h1 class="text-4xl font-bold">About Me</h1>
+    </header>
+    <Divider/>
     <div class="flex flex-col gap-12">
       <p class=" text-md font-poppins-light">
         Hi, I'm Mai, a second-year HBO ICT Software Engineering student at Amsterdam University of Applied Sciences.

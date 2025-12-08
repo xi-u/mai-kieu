@@ -15,7 +15,7 @@ export default defineComponent({
     <li class="flex flex-row hover-effect">
       <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
         <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-          <Email class="text-secondary w-6"/>
+          <Email class="text-white-light w-6"/>
         </figure>
       </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
@@ -27,7 +27,7 @@ export default defineComponent({
     <li class="flex flex-row hover-effect">
       <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
         <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-          <Phone class="text-secondary w-6"/>
+          <Phone class="text-white-light w-6"/>
         </figure>
       </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
@@ -39,7 +39,7 @@ export default defineComponent({
     <li class="flex flex-row hover-effect">
       <div class="p-[2px] rounded-xl bg-gradient-to-r from-primary to-secondary w-fit h-fit">
         <figure class="bg-black-lighter w-12 h-12 rounded-xl flex items-center justify-center shadow-md flex-shrink-0">
-          <LinkedIn class="text-secondary w-6"/>
+          <LinkedIn class="text-white-light w-6"/>
         </figure>
       </div>
       <div class="text-white-light flex flex-col ml-4 justify-center">
