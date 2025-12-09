@@ -1,7 +1,7 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
 import {Carousel, Slide, Navigation as CarouselNavigation, Pagination as CarouselPagination} from 'vue3-carousel'
-import Widget from "../ui/Widget.vue";
+import Widget from "../../ui/Widget.vue";
 
 export default defineComponent({
   name: "ProjectCarousel",

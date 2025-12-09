@@ -154,7 +154,7 @@ export const projects = [
     {
         id: 7,
         title: "miHoYo",
-        date: "September 2022",
+        date: "September 2022 - October 2022",
         description: "My first website inspired by the miHoYo official website.",
         fullDescription: `This was my very first website, created as part of a computer science assignment in my fourth year of HAVO. It was my first time working with HTML and CSS, and I was amazed at how I could bring something to life on a web page using code. 
         

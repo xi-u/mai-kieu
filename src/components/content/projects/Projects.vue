@@ -1,6 +1,6 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
-import Divider from "../ui/Divider.vue";
+import Divider from "../../ui/Divider.vue";
 import Skills from "../about-me/Skills.vue";
 import ProjectList from "./ProjectList.vue";
 import Code from "../../icons/Code.vue";
