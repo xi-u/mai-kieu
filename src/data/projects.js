@@ -151,4 +151,25 @@ export const projects = [
             "/mai-kieu/img/projects/dokkie/6.png",
         ],
     },
+    {
+        id: 7,
+        title: "miHoYo",
+        date: "September 2022",
+        description: "My first website inspired by the miHoYo official website.",
+        fullDescription: `This was my very first website, created as part of a computer science assignment in my fourth year of HAVO. It was my first time working with HTML and CSS, and I was amazed at how I could bring something to life on a web page using code. 
+        
+        Experimenting with layouts, colors, and styles, and seeing the results instantly in the browser, was incredibly exciting and rewarding. It was during this project that my interest in web development truly began, and I decided that I wanted to pursue something in this field in the future. 
+        
+        In the end, my efforts were rewarded with a perfect score: a 10.
+        `,
+        technologies: ["HTML", "CSS"],
+        thumbnail: "/mai-kieu/img/projects/mihoyo/thumbnail.png",
+        images: [
+            "/mai-kieu/img/projects/mihoyo/thumbnail.png",
+            "/mai-kieu/img/projects/mihoyo/1.png",
+            "/mai-kieu/img/projects/mihoyo/2.png",
+            "/mai-kieu/img/projects/mihoyo/3.png",
+            "/mai-kieu/img/projects/mihoyo/4.png",
+        ],
+    },
 ]
