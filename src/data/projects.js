@@ -1,12 +1,14 @@
+
 export const projects = [
     {
         id: 1,
         title: "Elections",
         date: "September 2025 - Present",
         description: "A web application where you can view the Dutch elections from across multiple years.",
-        fullDescription: `I am working on a full-stack team project about Dutch elections. The web application shows election results for 2021, 2023, and 2025, using real official XML datasets. 
+        fullDescription: `I am working on a full-stack team project about Dutch elections. The web application shows election results for 2021, 2023, and 2025, using real official XML <a href="https://data.overheid.nl/datasets?search=verkiezingsuitslag%20tweede%20kamer" class="link" target="_blank">datasets</a>. 
         
-        I was responsible for the party comparison page, letting users compare parties across multiple years, as well as for showing vote results by municipality and polling station, and developing the forum overview and home page. 
+        I was responsible for the party comparison page, which allows users to compare different political parties across multiple levels of government (national, constituency, municipality, and polling station) based on their voting results. I also developed the home page, core layout components (including the navigation bar and footer), the forum overview page, the user management tab within the admin panel, and the voting guide, which users can complete to receive party match recommendations.
+        
         I parsed the XML data using transformers and converted it into Java entity models with JPA/Hibernate. 
         
         On the backend, I worked with Java Spring Boot to build RESTful APIs, and on the frontend I created responsive Vue.js components with TypeScript, gaining experience in both frontend and backend development with real datasets.`,
@@ -26,8 +28,13 @@ export const projects = [
             "/mai-kieu/img/projects/elections/10.png",
             "/mai-kieu/img/projects/elections/11.png",
             "/mai-kieu/img/projects/elections/12.png",
+            "/mai-kieu/img/projects/elections/13.png",
+            "/mai-kieu/img/projects/elections/14.png",
+            "/mai-kieu/img/projects/elections/15.png",
+            "/mai-kieu/img/projects/elections/16.png",
+            "/mai-kieu/img/projects/elections/17.png",
         ],
-        video: "https://www.youtube.com/embed/sePMPhuEmlw"
+        // video: "https://www.youtube.com/embed/sePMPhuEmlw"
     },
     {
         id: 2,

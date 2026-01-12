@@ -7,10 +7,11 @@ import Widget from "../../ui/Widget.vue";
 import ProjectCarousel from "./ProjectCarousel.vue";
 import ProjectModal from "./ProjectModal.vue";
 import NewWindow from "../../icons/NewWindow.vue";
+import Link from "../../ui/Link.vue";
 
 export default defineComponent({
   name: "ProjectDetail",
-  components: {NewWindow, ProjectModal, ProjectCarousel, Divider, Back, Widget},
+  components: {Link, NewWindow, ProjectModal, ProjectCarousel, Divider, Back, Widget},
   data() {
     return {
       project: null,
@@ -51,14 +52,9 @@ export default defineComponent({
       <p class="text-white-dark">{{ project.date }}</p>
       <ProjectCarousel :project="currentProject" @image-click="openModal"/>
       <ProjectModal v-if="showModal" v-model:showModal="showModal" :image="modalImage"/>
-      <p class="font-poppins-light text-md whitespace-pre-line ">
-        {{ currentProject.fullDescription }}
+      <p class="font-poppins-light text-md whitespace-pre-line" v-html="currentProject.fullDescription">
       </p>
-      <a v-if="currentProject.link" :href="currentProject.link" target="_blank"
-         class="text-primary underline mb-4 flex flex-row items-center gap-2 hover:text-primary/80 transition-colors duration-300">
-        <NewWindow class="w-4 h-4"/>
-        Visit Project Link
-      </a>
+      <Link v-if="currentProject.link" :href="currentProject.link"/>
       <h2 class="text-2xl font-bold">Technologies Used</h2>
 
       <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 mt-4 sm:mt-6">

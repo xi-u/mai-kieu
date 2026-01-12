@@ -48,6 +48,10 @@ body {
     @apply focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none;
 }
 
+.link {
+    @apply text-primary hover:underline cursor-pointer transition-colors duration-300 hover:text-primary/80;
+}
+
 
 
 
