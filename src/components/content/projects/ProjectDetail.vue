@@ -52,8 +52,12 @@ export default defineComponent({
       <p class="text-white-dark">{{ project.date }}</p>
       <ProjectCarousel :project="currentProject" @image-click="openModal"/>
       <ProjectModal v-if="showModal" v-model:showModal="showModal" :image="modalImage"/>
-      <p class="font-poppins-light text-md whitespace-pre-line" v-html="currentProject.fullDescription">
-      </p>
+      <p class="font-poppins-light text-md whitespace-pre-line" v-html="currentProject.fullDescription"></p>
+      <ul class="flex flex-col items-center md:flex-row gap-4 cursor-pointer">
+        <li v-for="image in currentProject.imagesRow" class="w-full md:w-1/2" >
+          <img :src="image" :alt="currentProject.title" @click="openModal(image)" class="my-2 rounded-2xl shadow-md"/>
+        </li>
+      </ul>
       <Link v-if="currentProject.link" :href="currentProject.link"/>
       <h2 class="text-2xl font-bold">Technologies Used</h2>
 

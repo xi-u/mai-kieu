@@ -11,7 +11,7 @@ export default defineComponent({
 <template>
   <footer class="text-white-dark flex flex-col items-center gap-4 my-6 opacity-30">
     <p>
-      © 2025 Mai Kieu
+      © {{ new Date().getFullYear() }} Mai Kieu
     </p>
     <p>
       Made with

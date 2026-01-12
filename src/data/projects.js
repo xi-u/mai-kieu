@@ -3,7 +3,7 @@ export const projects = [
     {
         id: 1,
         title: "Elections",
-        date: "September 2025 - Present",
+        date: "September 2025 - January 2026",
         description: "A web application where you can view the Dutch elections from across multiple years.",
         fullDescription: `I am working on a full-stack team project about Dutch elections. The web application shows election results for 2021, 2023, and 2025, using real official XML <a href="https://data.overheid.nl/datasets?search=verkiezingsuitslag%20tweede%20kamer" class="link" target="_blank">datasets</a>. 
         
@@ -34,6 +34,10 @@ export const projects = [
             "/mai-kieu/img/projects/elections/16.png",
             "/mai-kieu/img/projects/elections/17.png",
         ],
+        imagesRow: [
+            "/mai-kieu/img/projects/elections/row1.png",
+            "/mai-kieu/img/projects/elections/row2.png",
+        ]
         // video: "https://www.youtube.com/embed/sePMPhuEmlw"
     },
     {
