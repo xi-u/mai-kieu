@@ -17,6 +17,7 @@ export default defineComponent({
       <Widget name="CSS"/>
       <Widget name="JavaScript"/>
       <Widget name="TypeScript"/>
+      <Widget name="C#"/>
       <Widget name="Tailwind CSS"/>
       <Widget name="Vue.js"/>
       <Widget name="Vite"/>
@@ -28,6 +29,9 @@ export default defineComponent({
       <Widget name="JPA Hibernate"/>
       <Widget name="VSCode"/>
       <Widget name="IntelliJ IDEA"/>
+      <Widget name="Rider"/>
+      <Widget name="Unity"/>
+      <Widget name="Blender"/>
       <Widget name="Git"/>
       <Widget name="Docker"/>
       <Widget name="Figma"/>

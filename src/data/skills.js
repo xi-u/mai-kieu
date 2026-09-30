@@ -59,6 +59,14 @@ export const skills = {
         logo: '/mai-kieu/img/logo/intellij.png',
         bg: null
     },
+    'Unity': {
+        logo: '/mai-kieu/img/logo/unity.png',
+        bg: null
+    },
+    'C#': {
+        logo: '/mai-kieu/img/logo/csharp.png',
+        bg: '#68217A'
+    },
     'Git': {
         logo: '/mai-kieu/img/logo/git.png',
         bg: '#F05032'
@@ -70,5 +78,13 @@ export const skills = {
     'Figma': {
         logo: '/mai-kieu/img/logo/figma.png',
         bg: null
+    },
+    'Rider': {
+        logo: '/mai-kieu/img/logo/rider.png',
+        bg: '#000000'
+    },
+    'Blender': {
+        logo: '/mai-kieu/img/logo/blender.png',
+        bg: '#F5792A'
     }
 };

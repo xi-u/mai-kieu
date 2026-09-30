@@ -46,7 +46,7 @@ export default defineComponent({
   <div class="flex flex-col items-center justify-center gap-4 text-white-light w-full text-center">
     <h2 class="font-poppins font-bold text-3xl ">Mai Kieu</h2>
       <p class="font-poppins text-xs rounded-xl text-white-dark ">
-        Student HBO-ICT Software Engineering
+        Student HBO-ICT
       </p>
       <p class="font-poppins text-xs rounded-lg text-white-dark">
         Hogeschool van Amsterdam
